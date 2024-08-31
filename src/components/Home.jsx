@@ -10,13 +10,14 @@ function Home() {
       </div> */}
 
       <div>
-        <h1 className="leading-snug font-bold text-7xl  mb-20">Meet, <span>Eat &</span> <br /> Enjoy the true <br /> taste</h1>
+        <h1 className="leading-normal font-bold text-6xl  mb-20">Pure, Raw, and <br />Naturally Delicious<br />Honey.</h1>
         <a href="#" className="bg-[#111111] text-[#ff9f0d] px-8 py-3 rounded-full mr-5 font-medium text-lg">Explore Menu </a>
         <a href="#" className="bg-[#ff9f0d] text-[#111111] px-8 py-2 rounded-full mr-5 font-medium text-xl">Order Now</a>
       </div>
 
-      <div className="lg:w-full lg:max-w-lg lg:h-auto">
-      <img src="src/assets/img/hero.png" alt="Hero" />
+      <div className="flex justify-center lg:w-full lg:max-w-lg lg:h-auto ">
+      <img src="src/assets/img/honey_2.png" alt="Hero" className='w-4/5 h-2/5 relative mr-32'/>
+      <img src="src/assets/img/honey_3.png" alt="Hero" className='w-1/5 h-1/4 mt-64 absolute ml-60'/>
       </div>
     </div>
 
