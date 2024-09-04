@@ -7,6 +7,7 @@ import About from './components/About'
 import Products from './components/Products'
 import Customer from './components/Customer'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Products />
         <Customer />
         <Contact />
+        <Footer />
       </div>
      )
 }
