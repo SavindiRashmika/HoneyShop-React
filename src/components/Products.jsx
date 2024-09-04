@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaRegHeart } from "react-icons/fa"
 
 function Products() {
   return (
@@ -22,7 +23,7 @@ function Products() {
                 </div>
 
                 <div>
-                    <a href="#"><i class="bx bx-heart"></i></a>
+                <FaRegHeart />
                 </div>
             </div>
 
@@ -39,7 +40,7 @@ function Products() {
                 </div>
 
                 <div>
-                    <a href="#"><i class="bx bx-heart"></i></a>
+                <FaRegHeart />
                 </div>
             </div>
 
@@ -56,7 +57,7 @@ function Products() {
                 </div>
 
                 <div>
-                    <a href="#" ><i class="bx bx-heart"></i></a>
+                <FaRegHeart />
                 </div>
             </div>
 
@@ -73,7 +74,7 @@ function Products() {
                 </div>
 
                 <div>
-                    <a href="#"><i class="bx bx-heart"></i></a>
+                <FaRegHeart />
                 </div>
             </div>
         </div>

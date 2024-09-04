@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='flex flex-row p-10 md:p-20'>
+    <div className='flex flex-row p-10 md:p-20 w-full'>
       <div className='pl-36'>
         <img src="src/assets/img/about.jpg" alt="Hero" className='w-8/12 rounded-lg rotate-[-16deg]' />
         <img src="src/assets/img/R.jpeg" alt="Hero" className='w-8/12 h-60 bg-contain rounded-lg rotate-[-16deg]' />

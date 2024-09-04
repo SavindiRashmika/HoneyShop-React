@@ -9,7 +9,7 @@ function Navbar() {
   const [menu, openMenu] = useState(false);
   const [showMenu, setShowmenu] = useState(true);
   return (
-    <nav className='flex flex-wrap justify-between lg:items-center text-white px-10 pt-1 bg-origin-padding lg:px-20 '>
+    <nav className='flex flex-wrap justify-between lg:items-center text-white px-10 pt-1 bg-origin-padding lg:px-20 fixed w-full z-20 bg-[#171d32] shadow-2xl'>
       <span className='text-3xl font-semibold tracking-wide flex gap-3 my-5'>
         <MdHome size={38} color="#ff9f0d" />Honey
       </span>
